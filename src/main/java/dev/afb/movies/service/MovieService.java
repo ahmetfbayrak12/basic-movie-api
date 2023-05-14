@@ -1,6 +1,7 @@
-package dev.afb.movies;
+package dev.afb.movies.service;
 
-import org.bson.types.ObjectId;
+import dev.afb.movies.model.Movie;
+import dev.afb.movies.repository.IMovieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

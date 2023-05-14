@@ -1,7 +1,8 @@
-package dev.afb.movies;
+package dev.afb.movies.controller;
 
+import dev.afb.movies.service.ReviewService;
+import dev.afb.movies.model.Review;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

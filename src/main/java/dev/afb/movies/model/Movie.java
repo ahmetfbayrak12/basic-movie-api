@@ -1,4 +1,4 @@
-package dev.afb.movies;
+package dev.afb.movies.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

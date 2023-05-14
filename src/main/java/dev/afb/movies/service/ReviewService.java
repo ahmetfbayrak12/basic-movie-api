@@ -1,5 +1,8 @@
-package dev.afb.movies;
+package dev.afb.movies.service;
 
+import dev.afb.movies.model.Movie;
+import dev.afb.movies.model.Review;
+import dev.afb.movies.repository.IReviewRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;

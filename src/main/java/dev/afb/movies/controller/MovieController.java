@@ -1,6 +1,7 @@
-package dev.afb.movies;
+package dev.afb.movies.controller;
 
-import org.bson.types.ObjectId;
+import dev.afb.movies.service.MovieService;
+import dev.afb.movies.model.Movie;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
